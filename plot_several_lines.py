@@ -9,7 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import ntpath
 
-filename = ('08072021_Gustavo_hahella.csv')
+filename = ('.csv')
 data = pd.read_csv(filename, sep=",", decimal=".")
 
 print (ntpath.splitext(filename)[0])
